@@ -48,7 +48,7 @@ const createTag = () => {
     document.getElementById("input").value = "";
     saveListOfTags();
   } else {
-    alert("Please insert text");
+    alert("PLEASE INSERT TEXT");
   }
 };
 
