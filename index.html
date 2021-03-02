@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>ADD A TAG</title>
+</head>
+
+<body>
+    <div class="mainDiv">
+        <a id="github" href="https://github.com/yuryiva/add-a-tag-app.git">GITHUB REPO HERE</a>
+        <p>ADD A TAG APP</p>
+        
+        
+        <div class="input-and-button">
+            <input id="input" type="text" placeholder="Add tag..." />
+            <button onclick="createTag()" id="addItem">ADD</button>
+        </div>
+        <input type="checkbox" id="checkbox" onchange="changeCheckboxState()">Functionality: <span
+            id='functionality'></span><br />
+        <div id="list"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
