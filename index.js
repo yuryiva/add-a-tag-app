@@ -33,7 +33,8 @@ window.addEventListener("load", () => {
   }
 });
 
-const createTag = () => {
+const createTag = (event) => {
+  event.preventDefault();
   const newTag = document.createElement("div");
   newTag.innerHTML = document.getElementById("input").value;
   newTag.className = "component";

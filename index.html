@@ -10,13 +10,14 @@
 </head>
 
 <body>
+    <a id="github" href="https://github.com/yuryiva/add-a-tag-app.git">
+        GITHUB REPO HERE</a>
     <div class="mainDiv">
-        <a id="github" href="https://github.com/yuryiva/add-a-tag-app.git">GITHUB REPO HERE</a>
         <p>ADD A TAG APP</p>
-        <div class="input-and-button">
+        <form class="input-and-button" onsubmit="createTag(event)">
             <input id="input" type="text" placeholder="Add tag..." />
             <button onclick="createTag()" id="addItem">ADD</button>
-        </div>
+        </form>
         <input type="checkbox" id="checkbox" onchange="changeCheckboxState()">Functionality: <span
             id='functionality'></span><br />
         <div id="list"></div>
