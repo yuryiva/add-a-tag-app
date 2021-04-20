@@ -24,7 +24,7 @@
 
 1. Clone the repo:
    ```sh
-   git clone https://github.com/yuryiva/add-a-tag-app
+   git clone https://github.com/yuryiva/add-a-tag-app.git
    ```
 2. Simply start the <i>index.html</i> file
 
@@ -32,4 +32,4 @@
 
 Due to the fact that only pure JavaScript, HTML and CSS had been used the app doesn't get updated automatically after changes are applied to the code. That means one has to restart the browser manually every time changes are made.
 
-<a href="https://find-a-country.netlify.app" target="_blank">Live presentation</a>
+<a href="https://add-a-tag-app.netlify.app/" target="_blank">Live presentation</a>
